@@ -1,0 +1,11 @@
+package: .
+import:
+- package: github.com/coreos/etcd
+  version: ^3.3.8
+  subpackages:
+  - client
+  - mvcc/mvccpb
+- package: github.com/golang/protobuf
+  version: ^1.1.0
+  subpackages:
+  - proto

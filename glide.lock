@@ -1,0 +1,31 @@
+hash: 5178a413e89bdd07d57ee4af32fa3062119f9960a9e4ec2316cc2e49d8673c26
+updated: 2018-07-17T12:25:22.68805133+10:00
+imports:
+- name: github.com/coreos/etcd
+  version: 33245c6b5b49130ca99280408fadfab01aac0e48
+  subpackages:
+  - client
+  - mvcc/mvccpb
+  - pkg/pathutil
+  - pkg/srv
+  - pkg/types
+  - version
+- name: github.com/coreos/go-semver
+  version: 8ab6407b697782a06568d4b7f1db25550ec2e4c6
+  subpackages:
+  - semver
+- name: github.com/gogo/protobuf
+  version: 342cbe0a04158f6dcb03ca0079991a51a4248c02
+  subpackages:
+  - gogoproto
+  - proto
+  - protoc-gen-gogo/descriptor
+- name: github.com/golang/protobuf
+  version: b4deda0973fb4c70b50d226b1af49f3da59f5265
+  subpackages:
+  - proto
+- name: github.com/ugorji/go
+  version: bdcc60b419d136a85cdf2e7cbcac34b3f1cd6e57
+  subpackages:
+  - codec
+testImports: []
